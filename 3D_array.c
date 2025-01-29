@@ -9,7 +9,7 @@ void main()
         {
             for (int k = 0; k < 2; k++)
             {
-                scanf("%d", &num[i][j][k]);
+                scanf("%d", &num[i][j][k]); 
             }
         }
     }
