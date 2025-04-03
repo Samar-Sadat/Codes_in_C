@@ -17,10 +17,10 @@ int main()
         scanf("%d", &a1[i]);
     }
 
-    printf("\nEnter the position in which you want to insert element: ");
+    printf("\nEnter the position where you want to insert element (POS of 1st element is 1): ");
     scanf("%d", &i1);
 
-    printf("\nEnter the position of element which you want to delete: ");
+    printf("\nEnter the position of element which you want to delete (POS of 1st element is 1): ");
     scanf("%d", &j1);
 
     if (i1 > n || i1 < 1 || j1 > n || j1 < 1)

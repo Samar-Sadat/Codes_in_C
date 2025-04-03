@@ -26,7 +26,7 @@ int main()
 
     for (int i = 1; i < n; i++)
     {
-        if (arr[i] > max2 && arr[i] < max)
+        if ((arr[i] > max2 && arr[i] < max) || max2 == max)
         {
             max2 = arr[i];
         }

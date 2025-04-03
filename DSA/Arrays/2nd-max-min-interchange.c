@@ -36,12 +36,12 @@ int main()
 
     for (int i = 1; i < n; i++)
     {
-        if ((arr[i] > *ptr_max && arr[i] != max) || *ptr_max == max)
+        if ((arr[i] > *ptr_max && arr[i] < max) || *ptr_max == max)
         {
             ptr_max = &arr[i];
         }
 
-        if ((arr[i] < *ptr_min && arr[i] != min) || *ptr_min == min)
+        if ((arr[i] < *ptr_min && arr[i] > min) || *ptr_min == min)
         {
             ptr_min = &arr[i];
         }
